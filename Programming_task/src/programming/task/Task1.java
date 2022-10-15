@@ -34,7 +34,7 @@ public class Task1 {
 		}
 	}	
 	public static void printTheData() {
-		final String ZERO="zero", EVEN="even", ODD="odd";
+		final String ZERO="is zero", EVEN="is even", ODD="is odd";
 		String answer ="";
 		
 		for(int i=0; i<myArray.length;i++) {
