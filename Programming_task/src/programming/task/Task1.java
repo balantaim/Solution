@@ -34,17 +34,17 @@ public class Task1 {
 		}
 	}	
 	public static void printTheData() {
-		final String ZERO="is zero", EVEN="is even", ODD="is odd";
+		final String ZERO="zero", EVEN="even", ODD="odd";
 		String answer ="";
 		
 		for(int i=0; i<myArray.length;i++) {
 			//Check if the number is ODD, EVEN or ZERO
 			if(myArray[i]==0) {
-				answer="Integer with index "+(i+1)+" = " + ZERO;
+				answer="Integer with index "+(i+1)+": " + ZERO;
 			}else if(myArray[i]%2==0) {
-				answer="Integer with index "+(i+1)+" = " + EVEN;
+				answer="Integer with index "+(i+1)+": " + EVEN;
 			}else {
-				answer="Integer with index "+(i+1)+" = " + ODD;
+				answer="Integer with index "+(i+1)+": " + ODD;
 			}
 			//Print the answer
 			System.out.println(answer);
