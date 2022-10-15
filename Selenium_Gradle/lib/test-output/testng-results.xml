@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-15T13:20:18 EEST" name="Default suite" finished-at="2022-10-15T13:20:29 EEST" duration-ms="11435">
+    <groups>
+    </groups>
+    <test started-at="2022-10-15T13:20:18 EEST" name="Default test" finished-at="2022-10-15T13:20:29 EEST" duration-ms="11435">
+      <class name="selenium_gradle.SeleniumTest">
+        <test-method is-config="true" signature="initStart()[pri:0, instance:selenium_gradle.SeleniumTest@368247b9]" started-at="2022-10-15T13:20:18 EEST" name="initStart" finished-at="2022-10-15T13:20:21 EEST" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initStart -->
+        <test-method signature="testAutomate()[pri:0, instance:selenium_gradle.SeleniumTest@368247b9]" started-at="2022-10-15T13:20:21 EEST" name="testAutomate" finished-at="2022-10-15T13:20:29 EEST" duration-ms="8679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutomate -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:selenium_gradle.SeleniumTest@368247b9]" started-at="2022-10-15T13:20:29 EEST" name="endTest" finished-at="2022-10-15T13:20:29 EEST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- selenium_gradle.SeleniumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
